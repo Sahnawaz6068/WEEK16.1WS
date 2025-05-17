@@ -1,0 +1,29 @@
+{
+  "name": "week16.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Sahnawaz hussain",
+  "license": "ISC",
+  "description": "This is webSocket Tutorial",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahnawaz6068/WEEK16.1WS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sahnawaz6068/WEEK16.1WS/issues"
+  },
+  "homepage": "https://github.com/Sahnawaz6068/WEEK16.1WS#readme"
+}
