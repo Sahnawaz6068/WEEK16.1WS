@@ -1,3 +1,4 @@
+
 //import ws-server from ws
 import { WebSocketServer } from "ws";
 //create a websocket server
@@ -29,3 +30,38 @@ wss.on("connection",function(socket){
     }
     })
 });
+
+// import { WebSocketServer } from "ws";
+// //Express server
+// import express from "express";
+// const app=express();
+// app.get("/",(req,res)=>{
+//     res.send("Hello Exress server");
+// })
+// app.post("/post",(req,res)=>{
+//     res.status(200).send("Post request is here")
+// })
+// let server1=app.listen(8081);
+
+// const wss=new WebSocketServer({server:server1});
+// let user=0;
+// wss.on("connection", function(socket){
+//     user++
+//     console.log("user connected");
+//     //jab socket on hai message bhejo
+//     socket.on("message",(e)=>{
+//         socket.send("Hello everybudy",function(){
+//             console.log("Hello console se")
+//         })
+//     })
+//     socket.send("A general Joining message",function(){
+//         console.log("a general joining message from console");
+//     });
+//     //Concluding here socket.on need 1.A/One string and/or A function 
+//     //S
+//     socket.on('error',function (error){
+//         console.log(error);
+//     })
+ 
+//     console.log(user);
+// })
